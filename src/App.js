@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Camera from './Components/Camera';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Camera feed={"https://impeccabletablemanners.files.wordpress.com/2016/05/monkey-puppet-omg-shock-gif.gif"}>
+
+        </Camera>
         <a
           className="App-link"
           href="https://reactjs.org"
