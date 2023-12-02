@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* CSS for maintaining aspect ratio */
+/*
+.imgBox {
+  aspect-ratio: 320/218;
+}
+*/
